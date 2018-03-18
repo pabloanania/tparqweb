@@ -1,4 +1,9 @@
 # TP Arquitectura Web
+* Nombre del grupo: Los panas
+* Integrantes: Ariel Navarro (89672), Pablo Anania (90772)
+* Negocio: Empresa requiere software que administre sus enlaces de red
+
+# Pasos para instalar
 1. Descargar Visual Studio Code
 2. Descargar e instalar Git (seguir el link desde Visual Studio Code)
 3. Ojo al configurarlo en la instalación (modifique primero CMD pero luego le dejé el Bash de Git)
