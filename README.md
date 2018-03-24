@@ -24,6 +24,18 @@
 * 
 
 # Endpoints API
+## Empresa
+* GET : /empresas
+> Obtiene todas las empresas
+* GET : /empresas/n
+> Obtiene la empresa con id n
+* POST : /empresas
+> Crea la empresa según los datos del body
+* PUT : /empresas/n
+> Modifica la empresa n segun los datos del body
+* DELETE : /empresas/n
+> Elimina la empresa n
+
 
 # Pasos para instalar
 1. Descargar Visual Studio Code
