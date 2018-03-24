@@ -3,6 +3,23 @@
 * Integrantes: Ariel Navarro (89672), Pablo Anania (90772)
 * Negocio: Empresa requiere software que administre sus enlaces de red
 
+# Entidades
+## Empresas
+### Atributos
+* ID : int
+* Name : string
+* Address : string
+* GMapsLink : string
+### Metodos
+* constructor : Empresas(name : string, address : string, gmapslink : string)
+* void UpdateEmpresas(id : int, name : string, address : string, gmapslink : string)
+* void DeleteEmpresas(id : int)
+* Empresas GetEmpresas(id : int)
+* List<Empresas> GetEmpresas()
+
+## Enlace
+* 
+
 # Pasos para instalar
 1. Descargar Visual Studio Code
 2. Descargar e instalar Git (seguir el link desde Visual Studio Code)
