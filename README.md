@@ -18,7 +18,12 @@
 * List<Empresas> GetEmpresas()
 
 ## Enlace
+### Atributos
 * 
+### Metodos
+* 
+
+# Endpoints API
 
 # Pasos para instalar
 1. Descargar Visual Studio Code
