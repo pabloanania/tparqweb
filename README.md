@@ -1,21 +1,35 @@
-# TP Arquitectura WebasADADAS
+# TP Arquitectura Web
 * Nombre del grupo: Los panas
 * Integrantes: Ariel Navarro (89672), Pablo Anania (90772)
 * Negocio: Empresa requiere software que administre sus enlaces de red
 
 # Entidades
-## Empresas
+## Proveedores
 ### Atributos
-* ID : int
+* Id : int
 * Name : string
 * Address : string
+* Contacto : string
 * GMapsLink : string
-### Metodos
-* constructor : Empresas(name : string, address : string, gmapslink : string)
-* void UpdateEmpresas(id : int, name : string, address : string, gmapslink : string)
-* void DeleteEmpresas(id : int)
-* Empresas GetEmpresas(id : int)
-* List<Empresas> GetEmpresas()
+
+## Vinculos
+### Atributos
+* Id : int
+* Referencia : string
+* IdTipo : int
+* VelocidadMbps : int
+* Precio : float
+* IdEstado: int
+
+## Tipos
+### Atributos
+* Id : int
+* Descripcion : string
+
+## Estados
+### Atributos
+* Id : int
+* Descripcion : string
 
 ## Enlace
 ### Atributos
